@@ -1,0 +1,23 @@
+
+.image-carousel {
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .image-row {
+    display: flex;
+    animation: scrollCarousel 10s linear infinite;
+  }
+  
+  @keyframes scrollCarousel {
+    0% {
+      transform: translateX(1);
+    }
+    100% {
+      transform: translateX(calc(-100% * 1));
+    }
+  }
+  
+  .image-row:active {
+    animation-play-state: paused;
+  }
