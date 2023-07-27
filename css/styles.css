@@ -91,10 +91,6 @@ html {
 }
 
 body {
-  font-family: 'Lato', sans-serif;
-  font-size: 15px;
-  font-weight: 400;
-  color: #666;
   overflow-x: hidden !important;
 }
 
@@ -163,12 +159,6 @@ h5 {
   margin: 0 auto;
   margin-top: .5rem;
   margin-bottom: 1.5rem;
-}
-
-*::after,
-*::before {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
 }
 
 .section-title {
