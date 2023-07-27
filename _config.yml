@@ -1,15 +1,8 @@
 
 # in the templates via {{ site.myvariable }}.
-
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-
 # Build settings
 plugins:
   - jekyll-feed
-
-
 # Exclude from processing.
-ass: 
-  sass-dir: _sass 
-  style: compressed 
